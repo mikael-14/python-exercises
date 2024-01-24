@@ -31,7 +31,7 @@ def main():
         elif i == "0":
             break
         else:
-            print("Opcao errada!")
+            print("Opção errada!")
 
 
 if __name__ == "__main__":
