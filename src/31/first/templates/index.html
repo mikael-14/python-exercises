@@ -1,0 +1,21 @@
+<html>
+    {{ msg }}
+
+    <table style="width:100%">
+        <tr>
+          <th>Nome</th>
+          <th>Numero</th>
+          <th>Morada</th>
+        </tr>
+        {% for o in res %}
+        <tr>
+            {% for field,value in o.items %}
+            <td>{{value}}</td>
+            {% endfor %}
+          
+        </tr>
+        {% endfor %}
+    </table>
+
+
+</html>
